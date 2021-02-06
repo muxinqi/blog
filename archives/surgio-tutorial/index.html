@@ -1,0 +1,323 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/styles.86995d87d03bdff5eb3d.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}
+
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden]{display:none}:root{--maxWidth-none:"none";--maxWidth-xs:20rem;--maxWidth-sm:24rem;--maxWidth-md:28rem;--maxWidth-lg:32rem;--maxWidth-xl:36rem;--maxWidth-2xl:42rem;--maxWidth-3xl:48rem;--maxWidth-4xl:56rem;--maxWidth-full:"100%";--maxWidth-wrapper:var(--maxWidth-2xl);--spacing-px:"1px";--spacing-0:0;--spacing-1:0.25rem;--spacing-2:0.5rem;--spacing-3:0.75rem;--spacing-4:1rem;--spacing-5:1.25rem;--spacing-6:1.5rem;--spacing-8:2rem;--spacing-10:2.5rem;--spacing-12:3rem;--spacing-16:4rem;--spacing-20:5rem;--spacing-24:6rem;--spacing-32:8rem;--fontFamily-sans:Montserrat,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--fontFamily-serif:"Merriweather","Georgia",Cambria,"Times New Roman",Times,serif;--font-body:var(--fontFamily-serif);--font-heading:var(--fontFamily-sans);--fontWeight-normal:400;--fontWeight-medium:500;--fontWeight-semibold:600;--fontWeight-bold:700;--fontWeight-extrabold:800;--fontWeight-black:900;--fontSize-root:16px;--lineHeight-none:1;--lineHeight-tight:1.1;--lineHeight-normal:1.5;--lineHeight-relaxed:1.625;--fontSize-0:0.833rem;--fontSize-1:1rem;--fontSize-2:1.2rem;--fontSize-3:1.44rem;--fontSize-4:1.728rem;--fontSize-5:2.074rem;--fontSize-6:2.488rem;--fontSize-7:2.986rem;--color-primary:#005b99;--color-text:#2e353f;--color-text-light:#4f5969;--color-heading:#1a202c;--color-heading-black:#000;--color-accent:#d1dce5}*,:after,:before{box-sizing:border-box}html{line-height:var(--lineHeight-normal);font-size:var(--fontSize-root);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{font-family:var(--font-body);font-size:var(--fontSize-1);color:var(--color-text)}footer{padding:var(--spacing-6) var(--spacing-0)}hr{background:var(--color-accent);height:1px;border:0}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);margin-top:var(--spacing-12);margin-bottom:var(--spacing-6);line-height:var(--lineHeight-tight);letter-spacing:-.025em}h2,h3,h4,h5,h6{font-weight:var(--fontWeight-bold);color:var(--color-heading)}h1{font-weight:var(--fontWeight-black);font-size:var(--fontSize-6);color:var(--color-heading-black)}h2{font-size:var(--fontSize-5)}h3{font-size:var(--fontSize-4)}h4{font-size:var(--fontSize-3)}h5{font-size:var(--fontSize-2)}h6{font-size:var(--fontSize-1)}h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{color:inherit;text-decoration:none}p{line-height:var(--lineHeight-relaxed);--baseline-multiplier:0.179;--x-height-multiplier:0.35;margin:var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0)}ol,p,ul{padding:var(--spacing-0)}ol,ul{margin-left:var(--spacing-0);margin-right:var(--spacing-0);margin-bottom:var(--spacing-8);list-style-position:outside;list-style-image:none}ol li,ul li{padding-left:var(--spacing-0)}li>p,ol li,ul li{margin-bottom:calc(var(--spacing-8)/2)}li :last-child{margin-bottom:var(--spacing-0)}li>ul{margin-left:var(--spacing-8);margin-top:calc(var(--spacing-8)/2)}blockquote{color:var(--color-text-light);margin-left:calc(var(--spacing-6)*-1);margin-right:var(--spacing-8);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);border-left:var(--spacing-1) solid var(--color-primary);font-size:var(--fontSize-2);font-style:italic;margin-bottom:var(--spacing-8)}blockquote>:last-child{margin-bottom:var(--spacing-0)}blockquote>ol,blockquote>ul{list-style-position:inside}table{width:100%;margin-bottom:var(--spacing-8);border-collapse:collapse;border-spacing:.25rem}table thead tr th{border-bottom:1px solid var(--color-accent)}a{color:var(--color-primary)}a:focus,a:hover{text-decoration:none}.global-wrapper{margin:var(--spacing-0) auto;max-width:var(--maxWidth-wrapper);padding:var(--spacing-10) var(--spacing-5)}.global-wrapper[data-is-root-path=true] .bio{margin-bottom:var(--spacing-20)}.global-header{margin-bottom:var(--spacing-12)}.main-heading{font-size:var(--fontSize-7);margin:0}.post-list-item{margin-bottom:var(--spacing-8);margin-top:var(--spacing-8)}.post-list-item p{margin-bottom:var(--spacing-0)}.post-list-item h2{font-size:var(--fontSize-4);color:var(--color-primary);margin-bottom:var(--spacing-2);margin-top:var(--spacing-0)}.post-list-item header{margin-bottom:var(--spacing-4)}.header-link-home{font-weight:var(--fontWeight-bold);font-family:var(--font-heading);text-decoration:none;font-size:var(--fontSize-2)}.bio{display:flex;margin-bottom:var(--spacing-16)}.bio-avatar,.bio p{margin-bottom:var(--spacing-0)}.bio-avatar{margin-right:var(--spacing-4);min-width:50px;border-radius:100%}.blog-post header h1{margin:var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0)}.blog-post header p{font-size:var(--fontSize-2);font-family:var(--font-heading)}.blog-post-nav ul{margin:var(--spacing-0)}.gatsby-highlight{margin-bottom:var(--spacing-8)}@media (max-width:42rem){blockquote{padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);margin-left:var(--spacing-0)}ol,ul{list-style-position:inside}}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.24.89"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" title="Mu Xinqi&#x27;s Blog" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/atom.xml"/><link rel="sitemap" type="application/xml" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/sitemap.xml"/><link rel="icon" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/favicon-32x32.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-48x48.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="72x72" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-72x72.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="96x96" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-96x96.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="144x144" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-144x144.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="192x192" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-192x192.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="256x256" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-256x256.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="384x384" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-384x384.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><link rel="apple-touch-icon" sizes="512x512" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/icons/icon-512x512.png?v=f5ef8b8940bcd3f9dbc5f3175be66a56"/><title data-react-helmet="true">Surgio上手教程——妥善管理你的机场订阅 | Mu Xinqi&#x27;s Blog</title><meta data-react-helmet="true" name="description" content="有多个机场订阅想合并成一个？提供的分流规则自己不满意？这里或许可以帮到你~"/><meta data-react-helmet="true" property="og:title" content="Surgio上手教程——妥善管理你的机场订阅"/><meta data-react-helmet="true" property="og:description" content="有多个机场订阅想合并成一个？提供的分流规则自己不满意？这里或许可以帮到你~"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="muxinqi"/><meta data-react-helmet="true" name="twitter:title" content="Surgio上手教程——妥善管理你的机场订阅"/><meta data-react-helmet="true" name="twitter:description" content="有多个机场订阅想合并成一个？提供的分流规则自己不满意？这里或许可以帮到你~"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/webpack-runtime-b5e39aee20544af34f08.js"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/styles-755093da0c07f4b49226.js"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/framework-9f754d8b33503a24e84f.js"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/app-3a2f3edb4cb08f364c7a.js"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/commons-ae2d47a353698eac7fbc.js"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/cd7d5f864fc9e15ed8adef086269b0aeff617554-dde15b1a14499451bb9f.js"/><link as="script" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/component---src-templates-blog-post-js-9650ef03b9465cd69bcc.js"/><link as="fetch" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/page-data/archives/surgio-tutorial/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/page-data/sq/d/916993862.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="global-wrapper" data-is-root-path="false"><header class="global-header"><a class="header-link-home" href="/">Mu Xinqi&#x27;s Blog</a></header><main><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><h1 itemProp="headline">Surgio上手教程——妥善管理你的机场订阅</h1><p>February 06, 2021</p></header><section itemProp="articleBody"><h2>前言</h2>
+<p>有的时候下载 BitTorrent 会发现被拦截，查看了 Clash 的日志会发现，流量按照分流规则走了机场代理，但是机场是禁止 BT 下载 的，所以需要在 Clash 配置文件中加入一条使 BitTorrent 不走代理（即直连）的规则，但是目前 Clash 的配置文件中<strong>节点</strong>和<strong>规则</strong>以及<strong>配置</strong>是严重耦合在一起的，那么就需要一个工具来帮助我们实现这个需求，研究了一下发现 Surgio 可以胜任。</p>
+<br/>
+<h2>需求</h2>
+<p>现有多个机场订阅以及节点信息：</p>
+<ul>
+<li>Clash(V2Ray)</li>
+<li>Clash(SSR)</li>
+<li>Vmess</li>
+</ul>
+<p>想将其合并成一个 Clash 配置文件，并且自定义一些分流规则。</p>
+<br/>
+<h2>Surgio</h2>
+<p><a href="https://surgio.js.org/" target="_blank" rel="nofollow noopener noreferrer">Surgio</a> 就是一个可以实现（包括但不仅限于）上述需求的好帮手。</p>
+<p>关于 Surgio 的详细介绍，还请看 <a href="https://surgio.js.org/" target="_blank" rel="nofollow noopener noreferrer">Surgio官方文档</a> ，文档写的较为全面，对于我这样的小白来说，初次上手确实有些摸不着头脑，网上相关的教程也较少（可能大佬看一看就明白了吧，觉得没啥可以分享的）。</p>
+<p>就这样，反反复复研究了小两天，整理出了以下内容，来解决上述需求。</p>
+<br/>
+<h2>Surgio 环境配置</h2>
+<blockquote>
+<ul>
+<li>以 ’$’ 开头的内容是需要输入至终端的，本教程基于 macOS Catalina 环境，其他平台请参照 <a href="https://surgio.js.org/guide/getting-started.html" target="_blank" rel="nofollow noopener noreferrer">Surgio 快速上手</a></li>
+</ul>
+</blockquote>
+<br/>
+<h3>安装 Node.js</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ brew <span class="token function">install</span> node</code></pre></div>
+<p>若提示 <code class="language-text">Command not found &#39;brew&#39;</code>，请安装 <code class="language-text">Homebrew</code>后再次执行该命令安装 <code class="language-text">Node.js</code>。</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 安装 Homebrew</span>
+$ /bin/bash -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">curl</span> -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="token variable">)</span></span>"</span></code></pre></div>
+<br/>
+<h3>下载 ssr-local 二进制文件</h3>
+<p>Surgio 导出 SSR 配置时<a href="https://surgio.js.org/guide/install-ssr-local.html" target="_blank" rel="nofollow noopener noreferrer">需要 ssr-local 的支持</a>，否则后面执行命令时会报错。
+（后期可以通过配置 <code class="language-text">binPath</code> 或者删除冗余的 SSR 导出配置等内容来优化）</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 该命令的作用是下载 ssr-local 到指定位置，并为其添加执行权限。</span>
+$ <span class="token function">curl</span> -L https://github.com/tindy2013/shadowsocks-static-binaries/raw/master/shadowsocksr-libev/macos/ssr-local -o /usr/local/bin/ssr-local <span class="token operator">&amp;&amp;</span> <span class="token function">chmod</span> +x /usr/local/bin/ssr-local</code></pre></div>
+<br/>
+<h3>安装 Surgio</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 安装</span>
+$ <span class="token function">npm</span> init surgio-store my-rule-store
+
+<span class="token comment"># 或使用国内镜像安装</span>
+$ <span class="token function">npm</span> init surgio-store my-rule-store --use-cnpm
+
+<span class="token comment"># 切换到仓库目录</span>
+$ <span class="token builtin class-name">cd</span> my-rule-store</code></pre></div>
+<p><code class="language-text">my-rule-store</code> 目录如下：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">.</span>
+├── node_modules
+├── package-lock.json
+├── package.json
+├── provider
+├── surgio.conf.js
+└── template</code></pre></div>
+<p>当前你只需要关注三个东西，他们的作用大致如下：</p>
+<blockquote>
+<ol>
+<li><code class="language-text">provider</code> - 里面包含你的机场订阅和节点信息</li>
+<li><code class="language-text">template</code> - 里面包含输出文件的格式与配置</li>
+<li><code class="language-text">surgio.conf.js</code> - 里面是你所需要的规则和机场订阅的组合方式等等配置</li>
+</ol>
+</blockquote>
+<br/>
+<h2>添加机场订阅和节点信息</h2>
+<p>第一步，先将多个机场订阅和一些单独的节点添加到 Surgio 中。</p>
+<br/>
+<h3>添加机场订阅</h3>
+<p>进入 provider 文件夹</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token builtin class-name">cd</span> provider</code></pre></div>
+<p>你能看到以下内容：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">.</span>
+├── README.md
+├── demo.js
+├── ssr_subscribe_demo.js
+├── subscribe_demo.js
+└── v2ray_subscribe_demo.js</code></pre></div>
+<p>首先对 <code class="language-text">subscribe_demo.js</code> 进行修改，将 <code class="language-text">url</code> 中的内容替换成你的机场订阅。</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">module.exports = {
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span> url: 'https://gist.githubusercontent.com/geekdada/34353d6ae23abd48f6e200b00747a87e/raw',
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span> url: 'https://example.com/clash_v2.yaml',
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span> type: 'clash',
+<span class="token prefix unchanged"> </span> // 定义所有的节点都支持 udpRelay
+<span class="token prefix unchanged"> </span> udpRelay: true,
+<span class="token prefix unchanged"> </span> // 添加国旗 emoji
+<span class="token prefix unchanged"> </span> addFlag: true,
+</span>};</code></pre></div>
+<p>如果你有多个机场订阅的话，则根据 <code class="language-text">subscribe_demo.js</code> 格式在当前目录下多创建几个文件，以我上面（两个 Clash 订阅链接）的需求为例：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 拷贝出一份新的文件</span>
+$ <span class="token function">cp</span> subscribe_demo.js subscribe_demo_1.js</code></pre></div>
+<p>对 <code class="language-text">subscribe_demo_1.js</code> 的内容进行修改：</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">module.exports = {
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span> url: 'https://example.com/clash_v2.yaml',
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span> url: 'https://example.com/clash_ssr.yaml',
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span> type: 'clash',
+<span class="token prefix unchanged"> </span> // 定义所有的节点都支持 udpRelay
+<span class="token prefix unchanged"> </span> udpRelay: true,
+<span class="token prefix unchanged"> </span> // 添加国旗 emoji
+<span class="token prefix unchanged"> </span> addFlag: true,
+</span>};</code></pre></div>
+<p>这样 <code class="language-text">subscribe_demo.js</code> 和 <code class="language-text">subscribe_demo_1.js</code> 中就分别保存了 Clash(V2Ray)和 Clash(SSR) 的订阅地址。</p>
+<br/>
+<h3>添加节点信息</h3>
+<p>接下来我们在 <code class="language-text">demo.js</code> 中可以看到一些节点信息填写的模板：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token string">'use strict'</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'custom'</span><span class="token punctuation">,</span>
+  nodeList<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      nodeName<span class="token operator">:</span> <span class="token string">'🇺🇸US'</span><span class="token punctuation">,</span>
+      type<span class="token operator">:</span> <span class="token string">'shadowsocks'</span><span class="token punctuation">,</span>
+      hostname<span class="token operator">:</span> <span class="token string">'us.example.com'</span><span class="token punctuation">,</span>
+      port<span class="token operator">:</span> <span class="token string">'10000'</span><span class="token punctuation">,</span>
+      method<span class="token operator">:</span> <span class="token string">'chacha20-ietf-poly1305'</span><span class="token punctuation">,</span>
+      password<span class="token operator">:</span> <span class="token string">'password'</span><span class="token punctuation">,</span>
+      obfs<span class="token operator">:</span> <span class="token string">'tls'</span><span class="token punctuation">,</span>
+      <span class="token string">'obfs-host'</span><span class="token operator">:</span> <span class="token string">'gateway-carry.icloud.com'</span><span class="token punctuation">,</span>
+      <span class="token string">'udp-relay'</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      nodeName<span class="token operator">:</span> <span class="token string">'🇭🇰HK(Netflix)'</span><span class="token punctuation">,</span>
+      type<span class="token operator">:</span> <span class="token string">'shadowsocks'</span><span class="token punctuation">,</span>
+      hostname<span class="token operator">:</span> <span class="token string">'hk.example.com'</span><span class="token punctuation">,</span>
+      port<span class="token operator">:</span> <span class="token string">'10000'</span><span class="token punctuation">,</span>
+      method<span class="token operator">:</span> <span class="token string">'chacha20-ietf-poly1305'</span><span class="token punctuation">,</span>
+      password<span class="token operator">:</span> <span class="token string">'password'</span><span class="token punctuation">,</span>
+      <span class="token string">'udp-relay'</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p>只需稍作修改即可，结构可参考 <a href="https://surgio.js.org/guide/custom-provider.html#custom" target="_blank" rel="nofollow noopener noreferrer">官方文档：Provider - custom</a> 。</p>
+<p>到此为止，我们已经将多个机场的订阅信息和一些节点的信息就添加到了 <code class="language-text">Surgio</code> 的配置中。</p>
+<p>接下来添加一些我们所需要的分流规则。</p>
+<br/>
+<h2>配置分流规则</h2>
+<p>在 <a href="https://surgio.js.org/guide/custom-config.html#remotesnippets" target="_blank" rel="nofollow noopener noreferrer">官方文档</a> 中，我们可以了解到 <code class="language-text">Surgio</code> 支持符合 <a href="https://nssurge.zendesk.com/hc/zh-cn/articles/360010038714-Surge-Mac-3-Release-Note" target="_blank" rel="nofollow noopener noreferrer">Surge Ruleset 标准</a>，我们就以添加 <a href="https://github.com/Loyalsoldier/surge-rules" target="_blank" rel="nofollow noopener noreferrer">surge-rules</a> 中的 <strong>RULE-SET: 广告域名列表 reject.txt</strong> 规则为例，在生成的 Clash 文件中拦截该规则下的域名。</p>
+<br/>
+<h3>添加规则</h3>
+<p>对 <code class="language-text">my-rule-store</code> 文件夹下的 <code class="language-text">surgio.conf.js</code> 进行修改：</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">module.exports = {
+<span class="token unchanged"><span class="token prefix unchanged"> </span> remoteSnippets: [
+<span class="token prefix unchanged"> </span>   {
+<span class="token prefix unchanged"> </span>     name: 'apple', // 模板中对应 remoteSnippets.apple
+<span class="token prefix unchanged"> </span>     url: 'https://raw.githubusercontent.com/geekdada/surge-list/master/surgio-snippet/apple.tpl',
+<span class="token prefix unchanged"> </span>     surgioSnippet: true
+<span class="token prefix unchanged"> </span>   },
+</span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span>   // 省略一些规则
+</span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span>   {
+<span class="token prefix unchanged"> </span>     name: 'paypal', // 模板中对应 remoteSnippets.paypal
+<span class="token prefix unchanged"> </span>     url: 'https://github.com/DivineEngine/Profiles/raw/master/Surge/Ruleset/Extra/PayPal.list'
+<span class="token prefix unchanged"> </span>   },
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>   // 添加广告域名列表规则
+<span class="token prefix inserted">+</span>   {
+<span class="token prefix inserted">+</span>     name: 'ad-reject',
+<span class="token prefix inserted">+</span>     url: 'https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt'
+<span class="token prefix inserted">+</span>   },
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span> ]
+</span>}</code></pre></div>
+<p>好，到此 Surgio 已经知道了该去哪里获取规则，接下来我们需要让 Surgio 知道这些规则该应用在哪里。</p>
+<br/>
+<h3>模板中应用规则</h3>
+<p>进入 <code class="language-text">template</code> 文件夹，对其中的 <code class="language-text">clash.tpl</code> 文件进行编辑：</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">rules:
+<span class="token inserted-sign inserted"><span class="token prefix inserted">+</span> {{ remoteSnippets.ad-reject.main('REJECT') | clash }}
+</span>{{ remoteSnippets.apple.main('🚀 Proxy', '🍎 Apple', '🍎 Apple CDN', 'DIRECT', 'US') | clash }}
+{{ remoteSnippets.netflix.main('🎬 Netflix') | clash }}
+{{ remoteSnippets.hbo.main('🚀 Proxy') | clash }}
+{{ remoteSnippets.hulu.main('🚀 Proxy') | clash }}
+{{ youtube_rules.main('🚀 Proxy') | clash }}
+{{ us_rules.main('US') | clash }}
+{{ remoteSnippets.telegram.main('🚀 Proxy') | clash }}
+{{ blocked_rules.main('🚀 Proxy') | clash }}
+{{ direct_rules.main('DIRECT') | clash }}</code></pre></div>
+<p>在该文件中，我们添加的内容代表，从 <code class="language-text">surgio.conf.js</code> 文件中的 <code class="language-text">remoteSnippets</code> 中找到名字为 <code class="language-text">ad-reject</code> 的规则，将该规则设置为 <strong>拒绝</strong>(<code class="language-text">REJECT</code>) 状态，这样符合该规则的请求就会被拦截，从而达到去除广告的效果。</p>
+<p>最开始的需求基本配置完毕，接下来我们需要将多个机场订阅和一些单独的节点合并生成一个 Clash 配置文件，并且其中需要包含刚刚配置的规则。</p>
+<br/>
+<h2>导出配置</h2>
+<p>这一部分需要回到 <code class="language-text">surgio.conf.js</code> 中进行修改：</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">artifacts: [
+<span class="token unchanged"><span class="token prefix unchanged"> </span>   // 省略一些内容
+</span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span>   /**
+<span class="token prefix unchanged"> </span>    * Clash
+<span class="token prefix unchanged"> </span>    */
+<span class="token prefix unchanged"> </span>   { 
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>     // 该导出文件包含 Clash(V2Ray)
+</span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span>     name: 'Clash.yaml',
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>     name: 'clash_v2.yaml',
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span>     template: 'clash',
+<span class="token prefix unchanged"> </span>     provider: 'subscribe_demo',   // 对应 provider 中的 subscribe_demo.js
+<span class="token prefix unchanged"> </span>   },
+<span class="token prefix unchanged"> </span>   { 
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>     // 该导出文件包含 Clash(SSR)
+</span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span>     name: 'Clash_custom_dns.yaml',
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>     name: 'clash_ssr.yaml',
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span>     template: 'clash',
+<span class="token prefix unchanged"> </span>     provider: 'subscribe_demo_1', // 对应 provider 中的 subscribe_demo_1.js
+<span class="token prefix unchanged"> </span>     customParams: {
+<span class="token prefix unchanged"> </span>       dns: true,
+<span class="token prefix unchanged"> </span>     }
+<span class="token prefix unchanged"> </span>   },
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>   // 合并节点
+<span class="token prefix inserted">+</span>   { 
+<span class="token prefix inserted">+</span>     // 该导出文件包含 Vmess + Clash(V2Ray) + Clash(SSR)
+<span class="token prefix inserted">+</span>     name: 'clash_combine.yaml',
+<span class="token prefix inserted">+</span>     template: 'clash',
+<span class="token prefix inserted">+</span>     provider: 'demo',             // 对应 provider 中的 demo.js
+<span class="token prefix inserted">+</span>     combineProviders: ['subscribe_demo', 'subscribe_demo_1'],
+<span class="token prefix inserted">+</span>   },
+</span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span>   // 省略一些内容
+<span class="token prefix unchanged"> </span> ],</span></code></pre></div>
+<br/>
+<h2>输出代理配置文件</h2>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 切换到项目根目录</span>
+$ <span class="token builtin class-name">cd</span> my-rule-store
+
+<span class="token comment"># 生成配置文件</span>
+$ npx surgio generate</code></pre></div>
+<p>执行成功后，会生成一个 <code class="language-text">dist</code> 文件夹，其中应该包含：</p>
+<ul>
+<li>clash_v2.yaml</li>
+<li>clash_ssr.yaml</li>
+<li>clash_combine.yaml</li>
+</ul>
+<p>将 <code class="language-text">clash_combine.yaml</code> 这个合并之后的 Clash 配置文件拷贝至 ClashX 的配置目录内，然后在 ClashX 中切换配置即可。</p>
+<br/>
+<p>按照上面的配置，可以实现本文一开始的需求。</p>
+<p>但是还是有以下可以优化的地方：</p>
+<ul>
+<li>每次修改规则配置后，需要重新拷贝配置文件至 ClashX 配置目录下。</li>
+<li>机场更新节点订阅后，需要重新生成配置文件。</li>
+<li>配置新机器的代理时，需要先在本地配置 Node 和 Surgio 环境。</li>
+</ul>
+<p>参考了官方文档，发现可以将 Surgio 部署到 SaaS 平台上，例如 Vercel 和 Heroku。</p>
+<p>那么就开始吧~</p>
+<br/>
+<h2>部署 Surgio API</h2>
+<p>本地直接部署至 Vercel 的方法请参考 <a href="https://surgio.js.org/guide/advance/api-gateway.html" target="_blank" rel="nofollow noopener noreferrer">官方文档：快速搭建托管 API</a> 。</p>
+<p>以下介绍的方法是我常用的流程，将本地项目提交至 GitHub，然后在 Vercel 引如 GitHub 项目并进行部署的方法，不过会略过一些常用操作。</p>
+<p>该流程方便后期随时随地在 GitHub 上编辑配置文件，并且 Vercel 自动化部署，无需本地再次配置环境。</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 在项目根目录 `my-rule-store` 下安装 `Surgio Gateway`。</span>
+$ <span class="token builtin class-name">cd</span> my-rule-store
+$ <span class="token function">npm</span> i @surgio/gateway --save
+
+<span class="token comment"># 创建 Vercel 配置文件</span>
+$ <span class="token function">touch</span> vercel.json
+
+<span class="token comment"># 创建 Surgio Gateway 配置文件</span>
+$ <span class="token function">touch</span> gateway.js</code></pre></div>
+<p>在 <code class="language-text">vercel.json</code> 文件中添加如下内容：</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"version"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+  <span class="token property">"public"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token property">"builds"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span> 
+      <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"/gateway.js"</span><span class="token punctuation">,</span>
+      <span class="token property">"use"</span><span class="token operator">:</span> <span class="token string">"@vercel/node"</span><span class="token punctuation">,</span>
+      <span class="token property">"config"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"includeFiles"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token string">"provider/**"</span><span class="token punctuation">,</span>
+          <span class="token string">"template/**"</span><span class="token punctuation">,</span>
+          <span class="token string">"*.js"</span><span class="token punctuation">,</span>
+          <span class="token string">"*.json"</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"routes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"/(.*)"</span><span class="token punctuation">,</span>
+      <span class="token property">"dest"</span><span class="token operator">:</span> <span class="token string">"/gateway.js"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>在 <code class="language-text">gateway.js</code> 文件中添加如下内容：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token string">'use strict'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> gateway <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'@surgio/gateway'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> gateway<span class="token punctuation">.</span><span class="token function">createHttpServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<br/>
+<h3>配置接口鉴权（安全考虑，务必配置）</h3>
+<p>在 <code class="language-text">surgio.conf.js</code> 添加如下内容</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">module.exports = {
+<span class="token unchanged"><span class="token prefix unchanged"> </span> gateway: {
+<span class="token prefix unchanged"> </span>   auth: true,
+<span class="token prefix unchanged"> </span>   accessToken: 'YOUR_PASSWORD',
+<span class="token prefix unchanged"> </span> },
+</span>}</code></pre></div>
+<p>并将 <code class="language-text">YOUR_PASSWORD</code> 进行随意替换。</p>
+<br/>
+<h3>提交至 GitHub</h3>
+<p>略</p>
+<br/>
+<h3>Vercel 部署</h3>
+<p>略</p>
+<hr>
+<p>略略略:p</p></section><hr/><footer><div class="bio"><div class="bio-avatar gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQL/xAAXAQADAQAAAAAAAAAAAAAAAAABAgME/9oADAMBAAIQAxAAAAHK62IlrmgUs0hs84W//8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAAwQREiL/2gAIAQEAAQUC9MxSytphcsMzXcxGIs2SZ//EABURAQEAAAAAAAAAAAAAAAAAACBC/9oACAEDAQE/AaH/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABBAIDAAAAAAAAAAAAAAABAAIQEQMSITFh/9oACAEBAAY/AtWDlVkFXDgtezBHiuP/xAAdEAEAAgICAwAAAAAAAAAAAAABABEQITFRQWGR/9oACAEBAAE/IUKh9IAb4MJaFlW9x1DQc9YFHCn5FBO3bAEn/9oADAMBAAIAAwAAABBb+IP/xAAYEQEBAAMAAAAAAAAAAAAAAAABEBEhMf/aAAgBAwEBPxAV6mdE/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQIBAT8QhT//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAhEEFhcbHw/9oACAEBAAE/EGSIun6ZLQFSjZ5OAKqANnaXDuIzXV6+cQHrfYpihl6Pa4ZW1z//2Q==" alt="muxinqi" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/340ed/profile-pic.jpg 1x,
+https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/32ce1/profile-pic.jpg 1.5x,
+https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/04d41/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/340ed/profile-pic.jpg 1x,
+https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/32ce1/profile-pic.jpg 1.5x,
+https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/04d41/profile-pic.jpg 2x" src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/static/dc08d4aed8452983d95476f3b21b6af5/340ed/profile-pic.jpg" alt="muxinqi" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>muxinqi</strong> <!-- -->who lives and works in Beijing building useful things.<!-- --> <a href="https://twitter.com/muxinqi">You should follow them on Twitter</a></p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li></li><li><a rel="next" href="/archives/getting-started-with-fitness/">在疫情期间我坚持下来的事<!-- --> →</a></li></ul></nav></main><footer>© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-142592200-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/archives/surgio-tutorial/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-b51087faa551b97588ee.js"],"app":["/app-3a2f3edb4cb08f364c7a.js"],"component---src-pages-404-js":["/component---src-pages-404-js-aa9f1cbcc6f3aed265f6.js"],"component---src-pages-index-js":["/component---src-pages-index-js-d76db89e23fe117fff74.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-343e65b8f05e179e3233.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-9650ef03b9465cd69bcc.js"]};/*]]>*/</script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/polyfill-b51087faa551b97588ee.js" nomodule=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/component---src-templates-blog-post-js-9650ef03b9465cd69bcc.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/cd7d5f864fc9e15ed8adef086269b0aeff617554-dde15b1a14499451bb9f.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/commons-ae2d47a353698eac7fbc.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/app-3a2f3edb4cb08f364c7a.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/framework-9f754d8b33503a24e84f.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/styles-755093da0c07f4b49226.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/muxinqi/blog@v-1612609274411/webpack-runtime-b5e39aee20544af34f08.js" async=""></script></body></html>
